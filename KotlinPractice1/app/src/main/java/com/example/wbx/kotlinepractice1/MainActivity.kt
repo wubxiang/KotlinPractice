@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         btn1.setOnLongClickListener {
             btn1.text = "您长按了一小会"
             longToast("小提示：您长按了一小会")
-            ;true
+            true
         }
     }
 }
