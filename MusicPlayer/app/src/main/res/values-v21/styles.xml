@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="MyAppTheme" parent="AppTheme">
+        <!--去掉title栏-->
+        <item name="windowNoTitle">true</item>
+        <!--状态栏颜色-->
+        <item name="android:statusBarColor">@color/mainColor</item>
+    </style>
+
+</resources>

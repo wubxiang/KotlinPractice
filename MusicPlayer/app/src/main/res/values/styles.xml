@@ -3,9 +3,17 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
+        <!--actionBar默认使用该颜色，Toolbar导航栏的底色-->
         <item name="colorPrimary">@color/colorPrimary</item>
+        <!--状态栏颜色,5.0以上才有效-->
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--控件选中后的颜色-->
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyAppTheme" parent="AppTheme">
+        <!--去掉title栏-->
+        <item name="windowNoTitle">true</item>
     </style>
 
 </resources>
