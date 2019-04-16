@@ -1,6 +1,7 @@
 package com.music.musicplayer
 
 import android.os.Bundle
+import android.util.Log
 import java.util.*
 
 /**
@@ -21,7 +22,7 @@ class WelcomeActivity : BaseActivity() {
     fun init(){
         mTimer.schedule(object : TimerTask(){
             override fun run() {
-
+                Log.e("welcomeActivity", "当前线程为：${Thread.currentThread()}")
             }
         }  , 3000)
     }
